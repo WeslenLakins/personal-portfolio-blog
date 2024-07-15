@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Weslen Lakins Personal Blog & Portfolio',
-  author: 'Weslen Lakins',
+  title: 'Personal Portfolio & Blog',
+  author: 'Weslen T. Lakins',
   headerTitle: 'Lakins',
   description: 'A collection of articles, tutorials and projects by Weslen Lakins',
   language: 'en-us',
