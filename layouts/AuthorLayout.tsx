@@ -2,6 +2,8 @@ import { ReactNode } from 'react'
 import type { Authors } from 'contentlayer/generated'
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
+import experienceData from '@/data/experienceData.json'
+import licenseData from '@/data/licenseData.json'
 
 interface Props {
   children: ReactNode
@@ -41,8 +43,83 @@ export default function AuthorLayout({ children, content }: Props) {
             </div>
           </div>
           <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
+            <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+              Bio
+            </h2>
             {children}
           </div>
+        </div>
+        <div className="space-y-8 pt-8">
+          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+            Experience
+          </h2>
+          <ul className="relative space-y-4">
+            {experienceData.map((exp, index) => (
+              <li key={exp.company} className="flex items-center space-x-4 pb-4">
+                <div className="relative">
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
+                    className="h-12 w-12 rounded-full"
+                  />
+                  {index !== experienceData.length - 1 && (
+                    <div className="absolute left-1/2 top-14 h-full w-px -translate-x-1/2 transform bg-gray-300"></div>
+                  )}
+                </div>
+                <div className="ml-6">
+                  {' '}
+                  {/* Added margin-left here */}
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                    {exp.company}
+                  </h3>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {exp.position} - {exp.type}
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {exp.start_date} - {exp.end_date}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="space-y-8 pt-8">
+          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+            Degrees, Licenses, and Certifications
+          </h2>
+          <ul className="relative space-y-4">
+            {licenseData.map((lic, index) => (
+              <li key={lic.title} className="flex items-center space-x-4 pb-4">
+                <div className="relative">
+                  <img
+                    src={lic.logo}
+                    alt={`${lic.issuer} logo`}
+                    className="h-12 w-12 rounded-full"
+                  />
+                  {index !== licenseData.length - 1 && (
+                    <div className="absolute left-1/2 top-14 h-full w-px -translate-x-1/2 transform bg-gray-300"></div>
+                  )}
+                </div>
+                <div className="ml-6">
+                  {' '}
+                  {/* Added margin-left here */}
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                    <a
+                      href={lic.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:underline"
+                    >
+                      {lic.title}
+                    </a>
+                  </h3>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {lic.issuer} - {lic.date}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </>

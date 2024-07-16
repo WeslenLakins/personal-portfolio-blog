@@ -1,0 +1,66 @@
+[
+  {
+    "company": "AI Application Assistant",
+    "position": "Founder, CEO",
+    "type": "Full Time",
+    "start_date": "September 2023",
+    "end_date": "Present",
+    "logo": "/images/truffles-logo.png"
+  },
+  {
+    "company": "Fidelity National Financial",
+    "position": "In-House Counsel",
+    "type": "Full Time",
+    "start_date": "August 2022",
+    "end_date": "Septemqber 2023",
+    "logo": "/images/truffles-logo.png"
+  },
+  {
+    "company": "FreeCodeCamp",
+    "position": "Contributor",
+    "type": "Volunteering",
+    "start_date": "January 2022",
+    "end_date": "Present",
+    "logo": "/images/microsoft-learn-logo.png"
+  },
+  {
+    "company": "Fidelity National Financial",
+    "position": "Law Clerk",
+    "type": "Full Time",
+    "start_date": "May 2021",
+    "end_date": "September 2021",
+    "logo": "/images/mlh-logo.png"
+  },
+  {
+    "company": "University of Kentucky J. David Rosenberg College of Law",
+    "position": "Research Assistant & Teaching Assistant",
+    "type": "Part Time",
+    "start_date": "January 2021",
+    "end_date": "May 2021",
+    "logo": "/images/postman-logo.png"
+  },
+  {
+    "company": "Volunteer Income Tax Assistance (VITA)",
+    "position": "Student Volunteer",
+    "type": "Volunteering",
+    "start_date": "February 2021",
+    "end_date": "April 2021",
+    "logo": "/images/ramotion-logo.png"
+  },
+  {
+    "company": "United States District Court for the Eastern District of Tennessee",
+    "position": "Summer Law Clerk",
+    "type": "Internship",
+    "start_date": "June 2020",
+    "end_date": "August 2020",
+    "logo": "/images/ramotion-logo.png"
+  },
+  {
+    "company": "Eight Judicial District of Tennessee, Attorney General's Office",
+    "position": "Prosecutorial Intern",
+    "type": "Internship",
+    "start_date": "May 2020",
+    "end_date": "June 2020",
+    "logo": "/images/ramotion-logo.png"
+  }
+]

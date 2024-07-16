@@ -2,8 +2,8 @@
 const siteMetadata = {
   title: 'Personal Portfolio & Blog',
   author: 'Weslen T. Lakins',
-  headerTitle: 'Lakins',
-  description: 'A collection of articles, tutorials and projects by Weslen Lakins',
+  headerTitle: 'WTL',
+  description: 'A collection of articles, tutorials, and projects by Weslen T. Lakins',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://personal-portfolio-blog-omega.vercel.app/',
