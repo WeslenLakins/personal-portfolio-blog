@@ -3,91 +3,91 @@
     "title": "Licensed Attorney",
     "issuer": "State of Tennessee, Judicial Department Supreme Court",
     "date": "June 2024",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipp-us-certification"
+    "logo": "/static/images/tn-judiciary.png",
+    "link": "https://www.tbpr.org/attorneys/041853"
   },
   {
     "title": "Certified Information Privacy Professional - United States (CIPP/US)",
     "issuer": "IAPP - International Association of Privacy Professionals",
     "date": "May 2024",
-    "logo": "/images/tennessee-bar-logo.png",
-    "link": "https://example.com/tennessee-bar-license"
+    "logo": "/static/images/iapp.png",
+    "link": "https://www.credential.net/4da89161-48c5-499f-b242-fa061f5d94e7?key=4ec9a4d85cc638521291afae1a6de36fb6b698390058b9ec5cda97fdd932acc3&record_view=true#gs.a3ew0g"
   },
   {
     "title": "Data Analysis with Python",
     "issuer": "freeCodeCamp",
     "date": "May 2024",
-    "logo": "/images/tennessee-bar-logo.png",
-    "link": "https://example.com/tennessee-bar-license"
+    "logo": "/static/images/free-code-camp.png",
+    "link": "https://freecodecamp.org/certification/WeslenLakins/data-analysis-with-python-v7"
   },
   {
     "title": "Front End Development Libraries",
     "issuer": "freeCodeCamp",
     "date": "May 2024",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipp-eu-certification"
+    "logo": "/static/images/free-code-camp.png",
+    "link": "https://freecodecamp.org/certification/WeslenLakins/front-end-development-libraries"
   },
   {
     "title": "JavaScript Algorithms and Data Structures",
     "issuer": "freeCodeCamp",
     "date": "May 2024",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipm-certification"
+    "logo": "/static/images/free-code-camp.png",
+    "link": "https://freecodecamp.org/certification/WeslenLakins/javascript-algorithms-and-data-structures-v8"
   },
   {
     "title": "Data Visualization",
     "issuer": "freeCodeCamp",
     "date": "May 2024",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/free-code-camp.png",
+    "link": "https://freecodecamp.org/certification/WeslenLakins/data-visualization"
   },
   {
     "title": "Responsive Web Design",
     "issuer": "freeCodeCamp",
     "date": "May 2024",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/free-code-camp.png",
+    "link": "https://freecodecamp.org/certification/WeslenLakins/responsive-web-design"
   },
   {
     "title": "Scientific Computing with Python",
     "issuer": "freeCodeCamp",
     "date": "May 2024",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/free-code-camp.png",
+    "link": "https://freecodecamp.org/certification/WeslenLakins/scientific-computing-with-python-v7"
   },
   {
     "title": "Postman API Development",
     "issuer": "Postman",
     "date": "November 2023",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/postman.png",
+    "link": "https://api.badgr.io/public/assertions/o64J0ko0Q3-Rp8hhyWnmIw"
   },
   {
     "title": "Juris Doctor",
     "issuer": "University of Kentucky J. David Rosenberg College of Law",
     "date": "May 2022",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/uk-law.png",
+    "link": "https://law.uky.edu/"
   },
   {
     "title": "Certified Swift Developer",
     "issuer": "Codeacdemy",
     "date": "April 2022",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/code-academy.png",
+    "link": "https://www.codecademy.com/profiles/wtlakins/certificates/18e90daa65479a37c8f909893ada3694"
   },
   {
     "title": "Certified JavaScript Developer",
     "issuer": "Codeacdemy",
     "date": "February 2022",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/code-academy.png",
+    "link": "https://www.codecademy.com/profiles/wtlakins/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
   },
   {
     "title": "Bachelor of Arts in Political Science",
     "issuer": "University of Tennessee",
     "date": "December 2018",
-    "logo": "/images/iapp-logo.png",
-    "link": "https://example.com/cipt-certification"
+    "logo": "/static/images/utk.png",
+    "link": "https://www.utk.edu/"
   }
 ]

@@ -47,6 +47,16 @@ export default function AuthorLayout({ children, content }: Props) {
               Bio
             </h2>
             {children}
+            <div className="pb-4 pt-4">
+              <a
+                href="/pgp-key.txt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline dark:text-blue-400"
+              >
+                GPG Public Key
+              </a>
+            </div>
           </div>
         </div>
         <div className="space-y-8 pt-8">
