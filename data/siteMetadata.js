@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'WTL Portfolio & Blog',
+  title: 'WTL Portfolio',
   author: 'Weslen T. Lakins',
   headerTitle: '',
-  description: 'A collection of articles, tutorials, and projects by Weslen T. Lakins',
+  description: 'A collection of articles, research, and tutorials by Weslen T. Lakins',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://personal-portfolio-blog-omega.vercel.app/',
