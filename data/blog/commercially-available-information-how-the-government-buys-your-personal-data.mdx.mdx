@@ -1,5 +1,5 @@
 ---
-title: 'My Test Title'
+title: 'Commercially Available Information: How the Government Buys Your Personal Data'
 date: '2024-06-27'
 lastmod: '2024-07-16'
 tags: ['privacy', 'law', 'government', 'article']
@@ -14,9 +14,9 @@ Ever wondered how much the government knows about your life? Picture this: your 
 
 The world of data privacy has been buzzing with significant developments lately.[^6] While we always knew big brother was watching, a 2022 report to the Director of National Intelligence (DNI)[^7] revealed just how deep the rabbit hole goes, igniting a firestorm of public and legislative scrutiny.[^8] Now, with the Fourth Amendment Is Not For Sale Act having cleared the House and likely to pass the Senate,[^9] the IC has released a new "Commercially Available Information Framework"[^10] to navigate this evolving terrain. Turn on your VPNs, and let's unpack what this means for our privacy.
 
-[Insert Image]
-
 ## 2022 ODNI Senior Advisory Group Panel on Commercially Avaialble Information Report
+
+![Constantly expanding pool of sensitive personal data](/static/images/cai/ConstantlyExpandingDataPool.png)
 
 Make no mistake, we now live in world where every step you take, every place you visit, and almost everything you do online leaves a trace—a digital footprint that can be bought and sold like any other commodity. As detailed in a recently declassified report on Commercially Available Information (CAI) commissioned by the ODNI and directed to Avril Haines, the Director of National Intelligence, there have been profound changes in how intelligence is gathered.
 
@@ -44,9 +44,61 @@ Commercial data brokers collect and sell information about us collected from pho
 
 In other words, if you have a cell phone, your personal data is likely being sold by multiple companies whose names you’ve likely never heard. So-called “third-party vendors” or data brokers like Venntel, Babel Street, Cuebiq, and LocationSmart collect real-time location data via GPS. They monitor your activities and movements through your phone via benign-seeming apps that use software development kits, or SDKs. Apps that use SDKs include weather apps, exercise monitoring apps, and video games. Third-party vendors provide SDKs to app developers for free in exchange for the information they can collect from them, or a cut of the ads they can sell through them. The aggregate information that apps collect can be extremely revealing. One third-party vendor, Mobilewalla, claimed to be able to track cellphones of protesters, and said it could identify protesters’ age, gender, and race via their cell phone use. Historical location information extracted by a data vendor from the gay hookup app, Grindr, was used by two reporters to “out” a top Catholic Church official.
 
+![Commercial Data Brokers Relationship with the IC](/static/images/cai/CommercialDataBrokers.png)
+
 Law enforcement purchases criminal history reports, financial data from credit bureaus, and other personal data to profile people. For example, CBP purchases access to the Venntel global mobile location database via a portal, so that CBP officers search a Venntel database to look for addresses or cell phone numbers. DHS can also access cell phone location history from private databases that sell subscriptions or search platforms, such as LexisNexis and TransUnion.
 
 Some experts have noted that “anonymized” GPS location data is notoriously easy to cross-reference. A New York Times op-ed posed the question: “Consider your daily commute: Would any other smartphone travel directly between your house and your office every day?” The authors concluded: “In most cases, ascertaining a home location and an office location was enough to identify a person.” More recently, cell phone location “pings,” collected by apps and stored under profiles tied to mobile ad IDs that are assigned to smartphones, were sufficient to identify individuals who ransacked the Capitol building in Washington, D.C., on January 6. And the use of “geo-fencing,” i.e. obtaining information from private companies about all persons in an area at a given time, has become exponentially more common in recent years.
+
+## The Databases Used by the IC
+
+The Intelligence Community (IC) uses a variety of databases to store and analyze data collected from various sources, including commercially available information (CAI). These databases play a crucial role in intelligence gathering, analysis, and dissemination, providing analysts with the tools they need to make informed decisions and protect national security.
+
+### Advanced Passenger Information System (APIS)
+
+Advanced Passenger Information System (APIS) is an electronic data system that allows commercial airlines to transmit traveler data directly to Customs and Border Patrol.
+
+Before a person can board a flight to, from, or overflying the US, their passport or ID is scanned by a CBP officer or TSA agent. The machine readable zone of their document pulls up their full name, date of birth, and citizenship, which can be used to retrieve information about their scheduled flight. This data is sent to CBP via APIS in the form of “passenger manifests” — commercial airline records that are transferred to CBP for vetting in real-time, or 30 minutes prior to boarding.
+
+Upon transmission, APIS data is immediately sent to other CBP databases, including TECS/ ICM for cross-referencing and storage. APIS generates an “Overstay Lead” list that is shared with CBP’s main computer system that predicts “risk,” Automated Targeting System (ATS). Simultaneously, API is screened against the FBI’s Terrorist Screening Center’s Terrorist Screening Database (TSDB).
+
+### Analytical Framework for Intelligence (AFI)
+
+Analytical Framework for Intelligence (AFI) is a Palantir tool, uses profiling algorithms created for former President Trump’s “Extreme Vetting” initiative to “detect trends, patterns, and emerging threats, and identify non-obvious relationships between persons, events, and cargo.” Knight and Gekker, “Mapping Interfacial Regimes of Control”; Medina and Customs, “Privacy Compliance Review of the U.S. Customs and Border Protection Analytical Framework for Intelligence (AFI) December 6, 2016,”
+
+According to a 2012 PIA on AFI, “data is indexed so that the system may retrieve it by any identifier maintained in the record. As information is retrieved from multiple sources it may be joined to create a more complete representation of an event or concept. For example, a complex event such as a seizure that is represented by multiple records may be composed into a single object, for display, representing that event.” In this way, AFI offers data visualization, and creates an index.
+
+Among other data points, AFI uses and stores public records showing who owns land near the US - Mexico border, and ingests records on “individuals not implicated in activities in violation of laws enforced or administered by CBP but with pertinent knowledge of some circumstance of a case or record subject,” as well as those not accused of breaking immigration or other laws but who might have “knowledge of narcotics trafficking or related activities.” In 2019, AFI made headlines when NBC reported that AFI was being used to mine US citizens’ social media posts on “caravans” and political rallies in order to train its targeting algorithm.
+
+AFI provides tools like geospatial, temporal and statistical analysis, and advanced search capabilities of commercial databases and Internet sources, including social media and traditional news media. Like other DHS systems, AFI automatically collects and stores criminalizing data from travel records in ATS-UPAX, ESTA, ADIS, ICM/ TECS, records from immigration arrests and deportations, and lists of foreign students. AFI also copies volumes of such government data onto its own (Palantir) servers. AFI uses Apache Hadoop, an open source framework that allows for faster searching across big datasets, which is hosted on the Amazon cloud. Hadoop requires continuous replication of data stored in multiple locations as well.
+
+### NCIC
+
+NCIC is a computerized index and central federal database for open warrants, wants, and “lookouts” for people and allegedly stolen property. It is the main criminalizing database at the national level, described as the "lifeblood of law enforcement." NCIC is maintained by the FBI and overseen by the agency’s Criminal Justice Information Services division. It is named after the National Crime Information Center where it is housed in Clarksburg, West Virginia.
+
+As law professor Bridget A. Fahey writes, "Any person who has been subject to a traffic stop — or seen one in a movie — knows about the NCIC in practice if not in name. When police officers run a name, driver’s license, or license plate, they search the NCIC, a sprawling repository of information about crime across levels of government to which 'virtually every criminal justice agency nationwide' has access and contributes data. The NCIC supports 'millions of transactions each day.' And a survey of states estimated that the entire sweep of networked criminal history databases contains files on 110 million people."
+
+NCIC criminal history data (which includes arrest records even when there isn’t a conviction) is submitted directly by the arresting law enforcement agency. If you are subjected to a background check or “criminal check,” chances are high that NCIC is consulted. Because it is the go-to source for criminalizing data, it is noteworthy that since 2001, NCIC records make visible civil immigration information, including prior removal orders, and allows ICE analysts at its Law Enforcement Support Center (LESC) to tag people as “Immigration Violators” in the NCIC system and/ or mark their record with an outstanding criminal or administrative warrant — so that if a cop looks up a tagged person, the note will show up.
+
+### Next Generation Identification (NGI)
+
+The FBI’s Next Generation Identification (NGI), formerly Department of Justice Criminal Justice Information Services Division Integrated Automated Fingerprint Identification System, or IAFIS, is purportedly the largest electronic repository of biometric information in the world.
+
+While historically, “biometrics” refers to fingerprints, today the category includes experimental modalities including palm prints, voice prints, irises, and facial recognition. NGI includes fingerprints that have been sent to the FBI via the criminal legal system primarily, by states, territories and federal law enforcement agencies. If you’ve ever been arrested before, you would be listed in NGI.
+
+NGI is used by ICE in the field to quickly check a person’s biometrics against criminal legal history — especially if a person’s biometrics cannot be found in DHS’ IDENT database.
+
+ICE agents use EAGLE to submit biographic information, fingerprints, and arrest information to NGI for storage and for fingerprint-based criminal records checks. NGI sends back to EAGLE the results of the fingerprint check, including any criminal history information or wants and warrants on the individual.
+
+In the field, ICE officers can use the mobile device, EDDIE, to query simultaneously NGI for criminal history information and IDENT for a person’s immigration history. In response to the query, NGI and/or IDENT send a response, in less than a minute, to EDDIE indicating whether there is a fingerprint match. The NGI response includes a list of potential candidates who may match the prints submitted by EDDIE. NGI also provides the candidate’s Identity History Summary, which was formerly referred to as a “rap sheet.”
+
+### Secure Flight Passenger Database (SFPD)
+
+In November 2001, then-President Bush signed the Aviation and Transportation Security Act into law, creating the Transportation Security Administration (TSA) — a division of DHS that operates a travel-permission system for domestic US flights called “Secure Flight.”
+
+“Secure Flight” began as a program where aircraft operators screened names from passenger reservations to see if they matched or closely resembled any included on a “No Fly List”and other federal watchlists of “known or suspected terrorists” created by the FBI. If the aircraft operator suspected a watchlist match, the operators were supposed to notify TSA and send the targeted passenger for enhanced in-person screening.
+
+Today, “Secure Flight” allows TSA to access CBP’s surveillance dragnet and prediction tool — Automated Targeting System, or ATS, and write rules for the algorithm used by the ATS system to decide who qualifies as a “risk” and will be added to a category of people who will be subject to increased security checks. Targeting rules, and therefore the people targeted, can change day to day.
 
 ## The Fourth Amendment is Not for Sale Act
 
@@ -55,6 +107,8 @@ The Fourth Amendment Is Not For Sale Act is a landmark piece of legislation desi
 At its core, the Act aims to amend Section 2702 of Title 18 of the United States Code, making it illegal for law enforcement and intelligence agencies to obtain subscriber or customer records in exchange for anything of value without a warrant. This includes data held by intermediary internet service providers, ensuring that such entities cannot divulge sensitive information to the government without proper judicial oversight. The goal is to close the loophole that previously allowed government agencies to purchase data from brokers, which they would otherwise need a warrant to obtain.
 
 The provisions of the Act are clear and decisive. By prohibiting the purchase of data without a warrant, the Act marks a return to stricter adherence to the Fourth Amendment, which protects citizens from unreasonable searches and seizures. It also imposes stringent limitations on the sharing of such data between agencies, further tightening the reins on how personal information can be used and disseminated. This move is a direct response to the abuses highlighted in the 2022 DNI report, aiming to restore public trust and protect individual privacy.
+
+![The Fourth Amendment is Not for Sale Act](/static/images/cai/ACRIMe.png)
 
 Support for the Act has been notably bipartisan, reflecting a widespread recognition of the need to protect privacy rights. Lawmakers from both sides of the aisle have acknowledged the importance of closing these surveillance loopholes, and the Act's passage in the House was celebrated as a significant victory for privacy advocates. However, the journey isn't over yet. With the Senate expected to pass the bill, attention now turns to the implementation and enforcement of its provisions. Ensuring that these new rules are followed will be crucial in safeguarding the privacy of American citizens.
 
@@ -69,6 +123,8 @@ The May 2024 Policy Framework for Commercially Available Information (CAI) from 
 CAI includes data from cell phones, cars, and household appliances, all aggregated by commercial entities and sold to various buyers, including the IC. The framework recognizes the enormous value of CAI in providing critical intelligence, yet it also acknowledges the potential risks to individual privacy. This duality is at the heart of the new policy, which seeks to clarify how the IC can use CAI effectively while ensuring robust privacy protections.
 
 The policy begins by laying out some guiding principles. It insists that any access, collection, or processing of CAI must be legally authorized and tied to a validated mission or administrative need. This isn't just a matter of following the law; it's about aligning intelligence activities with clearly defined purposes. Privacy and civil liberties are central to this approach. The framework demands that these considerations be integral to every step of handling CAI, from the moment data is accessed to its final use.
+
+![The IC's CAI Framework](/static/images/cai/SecureFlightDatabase.png)
 
 A significant part of the framework deals with the importance of understanding where the data comes from and how it was collected. IC elements are tasked with verifying the sources of CAI and assessing the methods used to gather and aggregate it. This is crucial for ensuring that the data's integrity and quality meet the high standards required for accurate and reliable intelligence.
 
@@ -85,6 +141,16 @@ The policy also emphasizes the importance of ongoing review and reassessment. IC
 Additionally, transparency is a key theme throughout the framework. The IC is committed to providing clear documentation of its CAI activities and making this information available for oversight. Annual reports to the ODNI will detail all CAI procurements, and these reports will help promote best practices across the intelligence community. Additionally, the ODNI will provide biennial reports to the public to enhance understanding of how CAI is used and protected.
 
 In essence, the May 2024 Policy Framework for CAI represents a thoughtful and detailed approach to managing the vast amounts of commercially available data in a way that respects both the intelligence needs and the privacy rights of individuals. By establishing clear principles and stringent guidelines, the framework seeks to ensure that the IC can leverage the intelligence value of CAI while safeguarding the privacy and civil liberties of individuals. This approach reflects a nuanced understanding of the challenges and opportunities presented by modern data collection technologies and sets a precedent for responsible data management in the intelligence community.
+
+## Looking Ahead
+
+The intricate dance between national security and individual privacy has never been more delicate than in the realm of commercially available information (CAI). The intelligence community's reliance on CAI highlights its immense value for safeguarding national interests, yet it also underscores the significant risks to personal privacy and civil liberties. The recently declassified report and the subsequent policy framework from the Office of the Director of National Intelligence (ODNI) provide a roadmap for navigating this complex terrain.
+
+The recommendations to develop comprehensive cataloging processes, adaptable standards, and precise sensitivity guidelines are crucial steps toward responsible management of CAI. These measures aim to strike a balance that allows the intelligence community to harness the benefits of modern data technologies while mitigating potential abuses.
+
+The Fourth Amendment Is Not For Sale Act represents a landmark legislative effort to reclaim privacy rights in the digital age. By closing loopholes that permitted unchecked data acquisition, this Act signals a return to the foundational principles of privacy and judicial oversight. Its successful implementation will be a critical milestone in ensuring that government agencies adhere to constitutional protections while performing their essential duties.
+
+In conclusion, the evolving landscape of data privacy requires constant vigilance and adaptation. As technology continues to advance, so too must our legal and ethical frameworks. The intelligence community's proactive approach, combined with robust legislative action, paves the way for a future where national security and individual privacy are not mutually exclusive but are instead harmonized through thoughtful regulation and oversight. This balanced approach is essential for maintaining public trust and upholding the fundamental rights that define a democratic society.
 
 [^1]: https://www.wsj.com/articles/popular-weather-app-collects-too-much-user-data-security-experts-say-11546428914
 
