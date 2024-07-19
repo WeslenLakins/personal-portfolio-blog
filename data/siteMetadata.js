@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'A collection of articles, research, and tutorials by Weslen T. Lakins',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://personal-portfolio-blog-omega.vercel.app/',
+  siteUrl: 'https://weslenlakins.com',
   siteRepo: 'https://github.com/WeslenLakins/personal-portfolio-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
