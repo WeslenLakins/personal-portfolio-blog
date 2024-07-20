@@ -7,8 +7,9 @@ export default function WelcomeParagraph() {
         Hi, I'm <span className="text-blue-600 dark:text-blue-400">Wes</span>!
       </h1>
       <p className="mt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
-        Thank you for visiting my personal blog and portfolio. Here, I share my insights and
-        projects related to law, technology, and various other interests.
+        Thank you for visiting my personal blog and portfolio. This is where I share my insights and
+        projects related to law, technology, and various other interests. The views expressed here
+        are entirely my own.
       </p>
       <p className="mt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
         Whether you're looking for in-depth articles on cybersecurity and privacy law, practical
@@ -16,9 +17,9 @@ export default function WelcomeParagraph() {
         information to explore.
       </p>
       <p className="mt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
-        I hope you enjoy your visit and find the content both informative and engaging. The views
-        expressed here are entirely my own. Feel free to reach out if you have any questions or just
-        want to connect. Happy browsing!
+        I hope you enjoy your visit and find the content both informative and engaging. Feel free to
+        reach out if you have any questions, are interested in collaborating, or just want to
+        connect. Happy browsing!
       </p>
     </div>
   )
