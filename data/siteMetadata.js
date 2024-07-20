@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'WTL Portfolio',
+  title: 'WTL Portfolio & Blog',
   author: 'Weslen T. Lakins',
   headerTitle: '',
   description: 'A collection of articles, research, and tutorials by Weslen T. Lakins',
