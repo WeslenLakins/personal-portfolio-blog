@@ -1,18 +1,10 @@
 [
   {
-    "company": "AI Application Assistant",
-    "position": "Founder, CEO",
-    "type": "Full Time",
-    "start_date": "September 2023",
-    "end_date": "Present",
-    "logo": "/static/images/ai-application-assistant.png"
-  },
-  {
     "company": "Fidelity National Financial",
     "position": "In-House Counsel",
     "type": "Full Time",
     "start_date": "August 2022",
-    "end_date": "September 2023",
+    "end_date": "Present",
     "logo": "/static/images/fnf.png"
   },
   {
