@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'WTL Portfolio & Blog',
   author: 'Weslen T. Lakins',
   headerTitle: '',
-  description: 'A collection of articles, research, and tutorials by Weslen T. Lakins',
+  description:
+    'WTL Thoughts - A collection of articles, research, and tutorials by Weslen T. Lakins',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://weslenlakins.com',
