@@ -12,10 +12,9 @@ interface Props {
 
 export default function AuthorLayout({ children, content }: Props) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github } = content
-
   return (
     <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="space-y-8">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             About
@@ -41,12 +40,6 @@ export default function AuthorLayout({ children, content }: Props) {
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="x" href={twitter} />
             </div>
-          </div>
-          <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
-            <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-              Bio
-            </h2>
-            {children}
             <div className="pb-4 pt-4">
               <a
                 href="/pgp-key.txt"
@@ -58,41 +51,14 @@ export default function AuthorLayout({ children, content }: Props) {
               </a>
             </div>
           </div>
+          <div className="prose max-w-none pb-8 pt-8 dark:prose-invert xl:col-span-2">
+            <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+              Bio
+            </h2>
+            {children}
+          </div>
         </div>
-        <div className="space-y-8 pt-8">
-          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-            Experience
-          </h2>
-          <ul className="relative space-y-4">
-            {experienceData.map((exp, index) => (
-              <li key={exp.company} className="flex items-center space-x-4 pb-4">
-                <div className="relative">
-                  <img
-                    src={exp.logo}
-                    alt={`${exp.company} logo`}
-                    className="h-12 w-12 rounded-full"
-                  />
-                  {index !== experienceData.length - 1 && (
-                    <div className="absolute left-1/2 top-14 h-full w-px -translate-x-1/2 transform bg-gray-300"></div>
-                  )}
-                </div>
-                <div className="ml-6">
-                  {' '}
-                  {/* Added margin-left here */}
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-                    {exp.company}
-                  </h3>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    {exp.position} - {exp.type}
-                  </p>
-                  <p className="text-gray-500 dark:text-gray-400">
-                    {exp.start_date} - {exp.end_date}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
+
         <div className="space-y-8 pt-8">
           <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
             Degrees, Licenses, and Certifications
@@ -111,8 +77,6 @@ export default function AuthorLayout({ children, content }: Props) {
                   )}
                 </div>
                 <div className="ml-6">
-                  {' '}
-                  {/* Added margin-left here */}
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
                     <a
                       href={lic.link}
@@ -125,6 +89,39 @@ export default function AuthorLayout({ children, content }: Props) {
                   </h3>
                   <p className="text-gray-500 dark:text-gray-400">
                     {lic.issuer} - {lic.date}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <hr className="my-8 border-t-2 border-gray-300 dark:border-gray-700" />
+        <div className="space-y-8 pt-8">
+          <h2 className="text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
+            Experience
+          </h2>
+          <ul className="relative space-y-4">
+            {experienceData.map((exp, index) => (
+              <li key={exp.company} className="flex items-center space-x-4 pb-4">
+                <div className="relative">
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
+                    className="h-12 w-12 rounded-full"
+                  />
+                  {index !== experienceData.length - 1 && (
+                    <div className="absolute left-1/2 top-14 h-full w-px -translate-x-1/2 transform bg-gray-300"></div>
+                  )}
+                </div>
+                <div className="ml-6">
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                    {exp.company}
+                  </h3>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {exp.position} - {exp.type}
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-400">
+                    {exp.start_date} - {exp.end_date}
                   </p>
                 </div>
               </li>
