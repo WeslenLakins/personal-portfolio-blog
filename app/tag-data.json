@@ -1,1 +1,24 @@
-{"article":4,"government":5,"law":7,"artificial-intelligence":2,"privacy":3,"technology":6,"virtual-reality":1,"note":5,"machine-learning":2,"data-science":1,"federalism":1,"tutorial":2,"cybersecurity":1,"linux":1,"aritificial-intelligence":1,"neural-networks":1,"deep-learning":1,"cryptography":1,"politics":1,"multi-author":1,"next-js":1,"feature":1}
+{
+  "note": 6,
+  "government": 6,
+  "privacy": 4,
+  "law": 8,
+  "article": 4,
+  "artificial-intelligence": 2,
+  "technology": 6,
+  "virtual-reality": 1,
+  "machine-learning": 2,
+  "data-science": 1,
+  "federalism": 1,
+  "tutorial": 2,
+  "cybersecurity": 1,
+  "linux": 1,
+  "aritificial-intelligence": 1,
+  "neural-networks": 1,
+  "deep-learning": 1,
+  "cryptography": 1,
+  "politics": 1,
+  "multi-author": 1,
+  "next-js": 1,
+  "feature": 1
+}

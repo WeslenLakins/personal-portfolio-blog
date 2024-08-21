@@ -1,10 +1,18 @@
 [
   {
+    "company": "Lewis Thomason, P.C.",
+    "position": "Associate Attorney",
+    "type": "Full Time",
+    "start_date": "August 2024",
+    "end_date": "Present",
+    "logo": "/static/images/lewis-thomason.jpg"
+  },
+  {
     "company": "Fidelity National Financial",
     "position": "In-House Counsel",
     "type": "Full Time",
     "start_date": "August 2022",
-    "end_date": "Present",
+    "end_date": "July 2024",
     "logo": "/static/images/fnf.png"
   },
   {
