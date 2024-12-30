@@ -1,5 +1,8 @@
 {
-  "note": 9,
+  "note": 10,
+  "crypto": 1,
+  "policy": 1,
+  "government": 7,
   "ethics": 1,
   "artifical-intelligence": 1,
   "privacy": 5,
@@ -8,7 +11,6 @@
   "law": 10,
   "property": 1,
   "foreclosure": 1,
-  "government": 6,
   "article": 4,
   "artificial-intelligence": 2,
   "technology": 6,
