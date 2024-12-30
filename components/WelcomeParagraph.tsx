@@ -11,11 +11,7 @@ export default function WelcomeParagraph() {
         projects related to law, technology, and various other interests. Any opinions expressed
         here are entirely my own.
       </p>
-      <p className="mt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
-        Whether you're looking for in-depth articles on data security and privacy law, practical
-        tutorials on web development, or updates on my latest projects, you'll find a wealth of
-        information to explore.
-      </p>
+
       <p className="mt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
         I hope you find the content informative and engaging. If you have questions, are interested
         in collaborating, or simply want to connect, feel free to reach out. Enjoy your visit and
