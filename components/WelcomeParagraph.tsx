@@ -7,7 +7,7 @@ export default function WelcomeParagraph() {
         Hi, I'm <span className="text-blue-600 dark:text-blue-400">Weslen</span> ⚖️👨‍💻👋
       </h1>
       <p className="mt-6 text-lg leading-7 text-gray-500 dark:text-gray-400">
-        Thank you for visiting my personal blog and portfolio! This is where I share my insights and
+        Thank you for visiting my personal blog and portfolio. This is where I share my insights and
         projects related to law, technology, and various other interests. Any opinions expressed
         here are entirely my own.
       </p>
