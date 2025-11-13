@@ -2,8 +2,8 @@ import { ReactNode } from 'react'
 import type { Authors } from 'contentlayer/generated'
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
-import experienceData from '@/data/experienceData.json'
-import licenseData from '@/data/licenseData.json'
+import experienceData from '@/lib/experienceData.json'
+import licenseData from '@/lib/licenseData.json'
 
 interface Props {
   children: ReactNode
