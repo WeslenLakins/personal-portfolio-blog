@@ -1,10 +1,18 @@
 [
   {
+    "company": "Bradley Arant Boult Cummings LLP",
+    "position": "Associate Attorney",
+    "type": "Full Time",
+    "start_date": "November 2025",
+    "end_date": "Present",
+    "logo": "/static/images/bradley-law-logo.jpg"
+  },
+  {
     "company": "Lewis Thomason, P.C.",
     "position": "Associate Attorney",
     "type": "Full Time",
     "start_date": "August 2024",
-    "end_date": "Present",
+    "end_date": "November 2025",
     "logo": "/static/images/lewis-thomason.jpg"
   },
   {
