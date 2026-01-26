@@ -1,8 +1,9 @@
 {
-  "note": 22,
-  "finance": 4,
+  "note": 23,
+  "finance": 5,
+  "lending": 1,
+  "law": 19,
   "securitization": 1,
-  "law": 18,
   "hud": 1,
   "healthcare": 1,
   "senior-housing": 1,
