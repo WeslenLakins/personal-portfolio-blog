@@ -1,8 +1,12 @@
 {
+  "law": 20,
+  "legal-ethics": 1,
+  "legal-profession": 1,
+  "private-equity": 1,
+  "legal-innovation": 1,
   "note": 23,
   "finance": 5,
   "lending": 1,
-  "law": 19,
   "securitization": 1,
   "hud": 1,
   "healthcare": 1,
